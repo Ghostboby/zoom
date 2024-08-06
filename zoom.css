@@ -1,0 +1,577 @@
+#zoomdiv{
+    height: 50px;
+    width: 1520px;
+    border: 2px solid red;
+    background-color: white;
+    position: absolute;
+}
+#leavediv{
+    border:2px solid black;
+    height: 10px;
+    width: 120px;
+    background-color: red;
+    position: absolute;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom:20px;
+    margin-left: 1370px;
+    margin-top: 10px;
+}
+#share{
+   position: absolute;
+    margin-bottom: 0px;
+    margin-left: 1320px;
+    border: 2PX SOLID white;
+    width: 40px;
+    height: 40px;
+    background-image: url(share.png);
+    background-repeat: no-repeat;
+    margin-top:4px ;
+}
+#mic{
+    position: absolute;
+     margin-bottom: 0px;
+     margin-left: 1270px;
+     border: 2PX ;
+     width: 40px;
+     height: 40px;
+     background-size: 25px;
+     background-image: url(mico.png);
+     background-repeat: no-repeat;
+     margin-top:6px ;
+ }
+ #camera{
+    position: absolute;
+     margin-bottom: 0px;
+     margin-left: 1190px;
+     border: 2PX ;
+     width: 40px;
+     height: 40px;
+     background-size: 20px;
+     background-position: center;
+     background-image: url(camera-video-off-fill.1024x934.png);
+     background-repeat: no-repeat;
+     margin-top:6px ;
+     border-left: 2px solid;
+     padding-left: 20px;
+     
+ }
+ #dots{
+    position: absolute;
+     margin-bottom: 0px;
+     margin-left: 1140px;
+     border: 2PX ;
+     width: 40px;
+     height: 40px;
+    background-position: center;
+     background-size: 20px;
+     background-image: url(dots-3.1024x225.png);
+     background-repeat: no-repeat;
+     margin-top:6px ;
+     margin-right: 8px;
+ }
+ #app{
+    position: absolute;
+     margin-bottom:0px;
+     margin-left: 1100px;
+     border: 2PX ;
+     width: 40px;
+     height: 40px;
+    background-position: center;
+     background-size: 15px;
+     background-image: url(add-box.1024x1024.png);
+     background-repeat: no-repeat;
+     margin-top:7px ;
+     margin-right: 8px;
+ }
+ #room{
+    position: absolute;
+     margin-bottom: 0px;
+     margin-left: 1060px;
+     border: 2PX ;
+     width: 40px;
+     height: 40px;
+     background-size: 26px;
+     background-image: url(check-box-outline-blank.1024x1024.png);
+     background-repeat: no-repeat;
+     margin-top:8px ;
+ }
+ #note{
+    position: absolute;
+     margin-bottom: 0px;
+     margin-left: 1010px;
+     border: 2PX ;
+     width: 40px;
+     height: 40px;
+     background-size: 23px;
+     background-image: url(note.911x1024.png);
+     background-repeat: no-repeat;
+     margin-top:8px ;
+ }
+ #react{
+    position: absolute;
+     margin-bottom: 0px;
+     margin-left: 960px;
+     border: 2PX ;
+     width: 40px;
+     height: 40px;
+     background-size: 26px;
+     background-image: url(face-satisfied.1024x1024.png);
+     background-repeat: no-repeat;
+     margin-top:8px ;
+ }
+ #raise{
+    position: absolute;
+     margin-bottom: 0px;
+     margin-left: 910px;
+     border: 2PX ;
+     width: 40px;
+     height: 40px;
+     
+     background-size: 23px;
+     background-image: url(raised-hand.887x1024.png);
+     background-repeat: no-repeat;
+     margin-top:7px ;
+ }
+ #people{
+    position: absolute;
+     margin-bottom: 0px;
+     margin-left: 860px;
+     border: 2PX ;
+     width: 40px;
+     height: 40px;
+     background-size: 26px;
+     background-image: url(group.1024x805.png);
+     background-repeat: no-repeat;
+     margin-top:7px ;
+ }
+ #chat{
+    position: absolute;
+     margin-bottom: 0px;
+     margin-left: 820px;
+     border: 2PX ;
+     width: 40px;
+     height: 40px;
+     background-size: 26px;
+     background-image: url(chat-lines.1024x1024.png);
+     background-repeat: no-repeat;
+     margin-top:7px ;
+ }
+ #dotts{
+    position: absolute;
+     margin-bottom: 0px;
+     margin-left:70px;
+     border: 2PX ;
+     width: 40px;
+     height: 40px;
+     background-size: 26px;
+     background-image: url(radio-button.1024x1024.png);
+     background-repeat: no-repeat;
+     margin-top:7px ;
+ }
+ #first{
+    position: absolute;
+    height: 220px;
+    width: 400px;
+    margin:60px;
+    margin-left: 160px;
+    background:linear-gradient(to bottom right, #ff99cc,#ffffcc 100%);
+   
+    border: 2px ;
+    border-radius: 10px;
+ }
+ #firstcircle{
+    margin-top:50px ;
+    margin-left: 145px;
+    height: 100px;
+    width: 100px;
+    bottom: 3px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: #ff99cc;
+ }
+ #second{
+    position: absolute;
+    height: 220px;
+    width: 400px;
+    margin-top: 205px;
+    top: 20px;
+    background:linear-gradient(to bottom right, #99ffcc 0%, #ffffcc 100%);
+    border: 2px ;
+    
+    border-radius: 10px;
+ }
+ #secondcircle{
+    margin-top:50px ;
+    margin-left: 145px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color:#ffffcc;
+ }
+ #third{
+    position: absolute;
+    height: 220px;
+    width: 400px;
+    margin-left:410px;
+    top: 0px;
+    background: linear-gradient(to bottom right, #93f2e2 0%, #ff99cc 100%);
+    border: 2px ;
+    border-radius: 10px;
+ }
+ #thirdcircle{
+    margin-top:50px ;
+    margin-left: 145px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: rgba(0, 255, 255, 0.155);
+ }
+ #fourth{
+    position: absolute;
+    height: 220px;
+    width: 400px;
+    margin-left:410px;
+    bottom: 222px;
+    background: linear-gradient(to bottom right, #66ffff 0%, #ff99cc 100%);
+    border: 2px ;
+    border-radius: 20px;
+ }
+ #fourthcircle{
+    margin-top:50px ;
+    margin-left: 145px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: rgba(0, 255, 255, 0.155);
+ }
+ 
+ #fifthcircle{
+    margin-top:50px ;
+    margin-left: 145px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #66ff99 0%, #ffffcc 100%);
+ }
+ #fifth{
+    position: absolute;
+    background-color: #d5cfeb;
+    height: 220px;
+    width: 400px;
+   margin-top:70px;
+   border-radius: 20px;
+
+    
+ }
+ #sixthcircle{
+    margin-top:50px ;
+    margin-left: 145px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: #99ccff;
+    
+ }
+ #sixth{
+    position: absolute;
+    background: linear-gradient(to bottom right,  #ffcc99 0%, #99ccff 100%);
+    height: 220px;
+    width: 400px;
+  bottom: 448px;
+   border-radius: 20px;
+
+    
+ }
+ #seventh{
+    position: absolute;
+    height: 215px;
+    width: 400px;
+    margin:75px;
+    background: linear-gradient(to bottom right, #cc99ff 0%, #ffccff 100%);
+
+    border: 2px ;
+    border-radius: 10px;
+    margin-left:410px ;
+    border-radius: 20px;
+ }
+ #seventhcircle{
+    margin-top:50px ;
+    margin-left: 145px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: #ffccff;
+ }
+ #time{
+    position: absolute;
+    margin-left: 100px;
+    font-size: 14px;
+ }
+ #shield{
+    border: 2px ;
+    display: flex;
+    position: absolute;
+    height: 40px;
+    width: 30px;
+   margin-left: 30px;
+    top: 0px;
+   background-size: 50px;
+   background-position: center;
+   background-repeat: no-repeat;
+    background-image: url("guard.jpg");
+ }
+ #arrow{
+    border: 2px ;
+    display: flex;
+    position: absolute;
+    height: 40px;
+    width: 30px;
+   margin-left: 1475px;
+    top: 12px;
+   background-size: 20px;
+   background-position: center;
+   background-repeat: no-repeat;
+    background-image: url("chevron-down.1024x585.png");
+ }
+ #micarrow{
+    border: 2px ;
+    display: flex;
+    position: absolute;
+    height: 40px;
+    width: 30px;
+   margin-left: 1290px;
+    top: 12px;
+   background-size: 10px;
+   background-position: center;
+   background-repeat: no-repeat;
+    background-image: url("chevron-down.1024x585.png");
+ }
+ #videoarrow{
+    border: 2px ;
+    display: flex;
+    position: absolute;
+    height: 40px;
+    width: 30px;
+   margin-left: 1230px;
+    top: 12px;
+   background-size: 10px;
+   background-position: center;
+   background-repeat: no-repeat;
+    background-image: url("chevron-down.1024x585.png");
+ }
+ #call{
+    border: 2px ;
+    display: flex;
+    position: absolute;
+    height: 40px;
+    width: 30px;
+   margin-left: 1375px;
+    top: 12px;
+   background-size: 20px;
+   background-position: center;
+   background-repeat: no-repeat;
+    background-image: url("call-decline.1024x489.png");
+ }
+ #tag1{
+    position: absolute;
+    width: 110px;
+    background-color: rgba(79, 78, 78, 0.142);
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+ }
+ #tag12{
+    color: white ;
+    font-size: 10px;
+    margin-left: 15px;
+    margin-top: 9px;
+ }
+ #tag2{
+    position: absolute;
+    width: 125px;
+    background-color: rgba(79, 78, 78, 0.142);
+    height: 30px;
+    margin-right: 250px;
+    margin-top: 120px;
+    border-radius: 10px;
+ }
+ #tag21{
+    color: white ;
+    font-size: 9px;
+    margin-left: 9px;
+    margin-top: 9px;
+ }
+ #tag3{
+    position: absolute;
+    width: 190px;
+    background-color: rgba(79, 78, 78, 0.142);
+    height: 30px;
+    margin-right: 200px;
+    margin-top: 120px;
+    border-radius: 10px;
+ }
+ #tag31{
+    color: white ;
+    font-size: 8px;
+    margin-left: 9px;
+    margin-top: 9px;
+ }
+ #tag4{
+    position: absolute;
+    width: 180px;
+    background-color: rgba(79, 78, 78, 0.142);
+    height: 30px;
+    margin-right: 190px;
+    margin-top: 120px;
+    border-radius: 10px;
+ }
+ #tag41{
+    color: white ;
+    font-size: 10px;
+    margin-left: 9px;
+    margin-top: 9px;
+ }
+ #tag5{
+    position: absolute;
+    width: 170px;
+    background-color: rgba(79, 78, 78, 0.142);
+    height: 30px;
+    margin-right: 210px;
+    margin-top: 120px;
+    border-radius: 10px;
+ }
+ #tag51{
+    color: white ;
+    font-size: 14px;
+    margin-left: 9px;
+    margin-top: 9px;
+ }
+ #tag6{
+    position: absolute;
+    width: 170px;
+    background-color: rgba(79, 78, 78, 0.142);
+    height: 30px;
+    margin-right: 210px;
+    margin-top: 120px;
+    border-radius: 10px;
+ }
+ #tag61{
+    color: white ;
+    font-size: 9px;
+    margin-left: 9px;
+    margin-top: 9px;
+ }
+ #tag7{
+    position: absolute;
+    width: 170px;
+    background-color: rgba(79, 78, 78, 0.142);
+    height: 30px;
+    margin-right: 210px;
+    margin-top: 120px;
+    border-radius: 10px;
+ }
+ #tag71{
+    color: white ;
+    font-size: 12px;
+    margin-left: 9px;
+    margin-top: 9px;
+ }
+#mute{
+position: absolute;
+border:2px ;
+height:20px;
+width:20px;
+margin-top: 123px;
+margin-right: 150px;
+background-repeat: no-repeat;
+background-size: 28px;
+background-position: center;
+background-image: url(mute1.jpeg);
+ }
+ #mute2{
+    position: absolute;
+    border:2px ;
+    height:20px;
+    width:20px;
+    margin-top: 123px;
+    margin-right: 40px;
+    background-repeat: no-repeat;
+    background-size: 28px;
+    background-position: center;
+    background-image: url(mute1.jpeg);
+     }
+     #mute3{
+        position: absolute;
+        border:2px ;
+        height:20px;
+        width:20px;
+        margin-top: 123px;
+        margin-right: 40px;
+        background-repeat: no-repeat;
+        background-size: 28px;
+        background-position: center;
+        background-image: url(mute1.jpeg);
+         }
+         #mute4{
+            position: absolute;
+            border:2px ;
+            height:20px;
+            width:20px;
+            margin-top: 123px;
+            margin-right: 40px;
+            background-repeat: no-repeat;
+            background-size: 28px;
+            background-position: center;
+            background-image: url(mute1.jpeg);
+             }
+             #mute5{
+                position: absolute;
+                display: flex;
+                
+                border:2px ;
+                height:20px;
+                width:20px;
+                margin-top: 123px;
+                margin-right:70px;
+                background-repeat: no-repeat;
+                background-size: 29px;
+                background-position: center;
+                background-image: url(mute1.jpeg);
+               }
+               #mute6{
+                position: absolute;
+                border:2px ;
+                height:20px;
+                width:20px;
+                margin-top: 123px;
+                margin-right: 70px;
+                background-repeat: no-repeat;
+                background-size: 28px;
+                background-position: center;
+                background-image: url(mute1.jpeg);
+               }
