@@ -75,7 +75,7 @@
  #app{
     position: absolute;
      margin-bottom:0px;
-     margin-left: 1100px;
+     margin-left: 1095px;
      border: 2PX ;
      width: 40px;
      height: 40px;
@@ -85,11 +85,12 @@
      background-repeat: no-repeat;
      margin-top:7px ;
      margin-right: 8px;
+     background-position-y:7px ;
  }
  #room{
     position: absolute;
      margin-bottom: 0px;
-     margin-left: 1060px;
+     margin-left: 1050px;
      border: 2PX ;
      width: 40px;
      height: 40px;
@@ -97,11 +98,12 @@
      background-image: url(check-box-outline-blank.1024x1024.png);
      background-repeat: no-repeat;
      margin-top:8px ;
+     background-position-x:3px;
  }
  #note{
     position: absolute;
      margin-bottom: 0px;
-     margin-left: 1010px;
+     margin-left: 1000px;
      border: 2PX ;
      width: 40px;
      height: 40px;
@@ -109,11 +111,12 @@
      background-image: url(note.911x1024.png);
      background-repeat: no-repeat;
      margin-top:8px ;
+     background-position-x:5px ;
  }
  #react{
     position: absolute;
      margin-bottom: 0px;
-     margin-left: 960px;
+     margin-left: 950px;
      border: 2PX ;
      width: 40px;
      height: 40px;
@@ -125,11 +128,11 @@
  #raise{
     position: absolute;
      margin-bottom: 0px;
-     margin-left: 910px;
+     margin-left: 900px;
      border: 2PX ;
      width: 40px;
      height: 40px;
-     
+     background-position-x: 5px;
      background-size: 23px;
      background-image: url(raised-hand.887x1024.png);
      background-repeat: no-repeat;
@@ -138,7 +141,7 @@
  #people{
     position: absolute;
      margin-bottom: 0px;
-     margin-left: 860px;
+     margin-left: 850px;
      border: 2PX ;
      width: 40px;
      height: 40px;
@@ -150,7 +153,7 @@
  #chat{
     position: absolute;
      margin-bottom: 0px;
-     margin-left: 820px;
+     margin-left: 800px;
      border: 2PX ;
      width: 40px;
      height: 40px;
